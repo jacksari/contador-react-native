@@ -15,20 +15,26 @@ const style = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#28c4d9',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center'
     },
     caja1: {
+        textAlign: 'center',
         flex: 1,
         borderWidth: 2,
         borderColor: 'white',
         fontSize: 30
     },
     caja2: {
+        textAlign: 'center',
         flex: 1,
         borderWidth: 2,
         borderColor: 'white',
         fontSize: 30
     },
     caja3: {
+        textAlign: 'center',
         flex: 1,
         borderWidth: 2,
         borderColor: 'white',
